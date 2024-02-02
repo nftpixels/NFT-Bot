@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Your Discord application details
 const clientId = '1202779676733607976';
 const clientSecret = 'Ft1bgEwnNucwMJpPhRBcqpMAJ4I-cQW4';
-const redirectUri = 'http://localhost:3000/Authentication';
+const redirectUri = 'https://discord-bot-test-mq3a.onrender.com';
 
 // Route for initiating the Discord OAuth2 flow
 app.get('/connect', (req, res) => {
